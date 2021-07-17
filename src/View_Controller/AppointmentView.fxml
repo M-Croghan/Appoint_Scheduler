@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="320.0" prefWidth="1190.0" style="-fx-border-color: #69c79b; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.AppointmentController">
+    <children>
+        <TableView fx:id="appTable" layoutX="39.0" layoutY="88.0" prefHeight="200.0" prefWidth="1112.0">
+         <columns>
+            <TableColumn fx:id="appIdCol" prefWidth="49.0" text="App. ID" />
+            <TableColumn fx:id="titleCol" prefWidth="123.0" text="Title" />
+            <TableColumn fx:id="descripCol" prefWidth="92.0" text="Description" />
+            <TableColumn fx:id="locCol" prefWidth="97.0" text="Location" />
+            <TableColumn fx:id="contactCol" prefWidth="77.0" text="Contact ID" />
+            <TableColumn fx:id="typeCol" prefWidth="145.0" text="Type" />
+            <TableColumn fx:id="startCol" prefWidth="196.0" text="Start Date / Time" />
+            <TableColumn fx:id="endCol" prefWidth="198.0" text="End Date / Time" />
+            <TableColumn fx:id="custIdCol" prefWidth="78.0" text="Customer ID" />
+            <TableColumn fx:id="userCol" prefWidth="56.0" text="User ID" />
+         </columns></TableView>
+        <Button fx:id="addNewAppBtn" layoutX="39.0" layoutY="54.0" mnemonicParsing="false" onAction="#toNewAppointment" text="Add New Appointment" />
+        <Button fx:id="toEditAppBtn" layoutX="216.0" layoutY="54.0" mnemonicParsing="false" onAction="#toEditAppointment" text="Edit Appointment" />
+        <Button fx:id="returnMainBtn" layoutX="1074.0" layoutY="54.0" mnemonicParsing="false" onAction="#returnToMain" text="Main Menu" />
+        <Button fx:id="deleteAppBtn" layoutX="367.0" layoutY="54.0" mnemonicParsing="false" onAction="#deleteAppointment" text="Delete Appointment" />
+      <Label layoutX="39.0" layoutY="14.0" text="All Scheduled Appointments" textFill="#69c79b">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
