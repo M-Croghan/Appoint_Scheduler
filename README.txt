@@ -12,7 +12,7 @@ APPLICATION PURPOSE:
 
 APPLICATION AUTHOR INFORMATION:
     * Author - Michael Croghan
-    * Contact Information - E-Mail: mcrogha@WGU.edu
+    * Contact Information - E-Mail: 
     * Student Application Version: 1.0.1
     * Date - 7/14/2021
 
