@@ -12,8 +12,7 @@ APPLICATION PURPOSE:
 
 APPLICATION AUTHOR INFORMATION:
     * Author - Michael Croghan
-    * Contact Information - E-Mail: 
-    * Student Application Version: 1.0.1
+    * Application Version: 1.0.1
     * Date - 7/14/2021
 
 TECHNICAL INFORMATION:
@@ -26,7 +25,7 @@ TECHNICAL INFORMATION:
 
 DIRECTIONS FOR APPLICATION USE:
     * Start application to be prompted with the login window.
-        * Username: test / Password: Test - credentials to be used for testing purposes
+        * Username: test / Password: test - credentials to be used for testing purposes
     * The main screen offers one the ability to navigate to 3 different windows:
 
         1) Customers main window -- will display all available customer records in the database &
