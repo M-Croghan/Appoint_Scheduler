@@ -1,6 +1,8 @@
 # Appoint Scheduler - Desktop Appointment Scheduling Application
 (Java, JavaFX, MySQL)
 
+
+
 APPLICATION PURPOSE:
     Enables employees of an organization to quickly interact with organizational database
     in a safe and efficient way. Helps in the creation of customer records and enables the scheduling of
