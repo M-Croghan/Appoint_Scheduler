@@ -1,6 +1,5 @@
-
-
-APPLICATION TITLE: 'Appoint Scheduler'
+# Appoint Scheduler - Desktop Appointment Scheduling Application
+(Java, JavaFX, MySQL)
 
 APPLICATION PURPOSE:
     Enables employees of an organization to quickly interact with organizational database
@@ -10,34 +9,22 @@ APPLICATION PURPOSE:
     upcoming appointments. This application is designed for an organization with a global reach and can enable employees
     to log-in and get to work regardless of where they are in the world.
 
-APPLICATION AUTHOR INFORMATION:
-    * Author - Michael Croghan
-    * Application Version: 1.0.1
-    * Date - 7/14/2021
-
-TECHNICAL INFORMATION:
-    * IDE VERSION - IntelliJ IDEA 2021.1.3 (Ultimate Edition)
-    * JDK Version - jdk - 11.0.10
-    * JavaFX Version - JavaFX SDK 16
-                        javafx.version=16
-                        javafx.runtime.version=16+8
-                        javafx.runtime.build=8
-
 DIRECTIONS FOR APPLICATION USE:
     * Start application to be prompted with the login window.
         * Username: test / Password: test - credentials to be used for testing purposes
+        * All log-in attempts are recorded (both successful & failed).
+        
     * The main screen offers one the ability to navigate to 3 different windows:
-
         1) Customers main window -- will display all available customer records in the database &
             offer the user the ability to add new, update, or delete existing customers.
         2) Appointments main window  -- will display all available appointment records in the database &
             offer the user the ability to add new, update, or delete existing appointments.
         3) Reports window -- will display an open window with the ability to execute an array of different queries.
 
-ADDITIONAL REPORT (Part A3F):
+REPORTING FEATURES:
     * The reports window allows for several types of reports to be generated. The additional reporting feature
-    I chose to implement allows the user to allows for the search of all existing appointments by customer. This made logical sense
-    as depending on the nature of operations of the business, a customer may routine appointments within an organization.
+    I chose to implement allows the user to search for all existing appointments by customer. This made logical sense
+    as depending on the nature of operations of the business, a customer may make routine appointments within an organization.
 
     As an additional feature, I elected to allow the report window to combine many of the search requirements while keeping the
     interface relatively clean. Users are able to search by: CONTACT NAME, CUSTOMER NAME, & APPOINT TYPE. They are about to search
@@ -45,8 +32,5 @@ ADDITIONAL REPORT (Part A3F):
     Making no criteria selection generates all reports based on those intervals.
 
     Additionally, the total number of appointments found in each query are returned.
-
-MYSQL CONNECTOR DRIVER VERSION:
-    mysql-connector-java-8.0.25
 
 
