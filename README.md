@@ -1,7 +1,7 @@
 # Appoint Scheduler - Desktop Appointment Scheduling Application
-(Java, JavaFX, MySQL)
+Technologies Used: (Java, JavaFX, MySQL)
 
-APPLICATION PURPOSE:
+## APPLICATION PURPOSE:
     Enables employees of an organization to quickly interact with organizational database
     in a safe and efficient way. Helps in the creation of customer records and enables the scheduling of
     appointments between the the organization and those they serve. Additional functionality includes the ability
@@ -9,7 +9,7 @@ APPLICATION PURPOSE:
     upcoming appointments. This application is designed for an organization with a global reach and can enable employees
     to log-in and get to work regardless of where they are in the world.
 
-DIRECTIONS FOR APPLICATION USE:
+# DIRECTIONS FOR APPLICATION USE:
     * Start application to be prompted with the login window.
         * Username: test / Password: test - credentials to be used for testing purposes
         * All log-in attempts are recorded (both successful & failed).
@@ -21,7 +21,7 @@ DIRECTIONS FOR APPLICATION USE:
             offer the user the ability to add new, update, or delete existing appointments.
         3) Reports window -- will display an open window with the ability to execute an array of different queries.
 
-REPORTING FEATURES:
+# REPORTING FEATURES:
     * The reports window allows for several types of reports to be generated. The additional reporting feature
     I chose to implement allows the user to search for all existing appointments by customer. This made logical sense
     as depending on the nature of operations of the business, a customer may make routine appointments within an organization.
