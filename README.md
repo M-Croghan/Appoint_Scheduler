@@ -14,7 +14,7 @@ to quickly query the database for specific appointment information and alerts us
 upcoming appointments. This application is designed for an organization with a global reach and can enable employees
 to log-in and get to work regardless of where they are in the world.
 
-# DIRECTIONS FOR APPLICATION USE:
+## DIRECTIONS FOR APPLICATION USE:
 * Start application to be prompted with the login window.
     * Username: test / Password: test - credentials to be used for testing purposes
     * All log-in attempts are recorded (both successful & failed).
@@ -26,7 +26,7 @@ to log-in and get to work regardless of where they are in the world.
             offer the user the ability to add new, update, or delete existing appointments.
     3) Reports window -- will display an open window with the ability to execute an array of different queries.
 
-# REPORTING FEATURES:
+## REPORTING FEATURES:
 The reports window allows for several types of reports to be generated. The additional reporting feature
 I chose to implement allows the user to search for all existing appointments by customer. This made logical sense
 as depending on the nature of operations of the business, a customer may make routine appointments within an organization.
@@ -37,5 +37,3 @@ as depending on the nature of operations of the business, a customer may make ro
  Making no criteria selection generates all reports based on those intervals.
 
  Additionally, the total number of appointments found in each query are returned.
-
-
