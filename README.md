@@ -1,5 +1,10 @@
-# Appoint Scheduler - Desktop Appointment Scheduling Application
-Technologies Used: (Java, JavaFX, MySQL)
+# APPOINT SCHEDULER - DESKTOP APPOINTMENT SCHEDULING APPLICATION
+## TECHNOLOGIES USED
+- Java
+- JavaFX
+- Scenebuilder
+- MySQL
+- InteliJ IDEA
 
 ## APPLICATION PURPOSE:
 Enables employees of an organization to quickly interact with organizational database
